@@ -1,7 +1,32 @@
 aid: swoop
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/swoop.png
 name: Swoop
-description: Swoop is a company surfaced as a portfolio company of version-one-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Swoop (formerly Thumo) is an African super-app building toward a single
+  consumer platform for everyday commerce, starting with same-day food delivery
+  and online shopping in Lagos, Nigeria (Yaba, Surulere, Gbagada and surrounding
+  areas) and Eswatini, where it launched in 2025 and became the country's
+  largest ecommerce platform. The app offers real-time order tracking,
+  transparent upfront pricing, in-app support, and payments via card, bank
+  transfer and OPay, with plans to add a payments app and further services on
+  the road to a pan-African super-app. Founded by Thiel Fellow Aubrey
+  Niederhoffer and Edwin Ruiz, Swoop raised a $7.3M seed round in 2026 with
+  participation from Version One Ventures, Long Journey, Variant, Soma Capital
+  and Dune. Swoop is a consumer-facing mobile and web platform; it does not
+  currently publish a public developer API, OpenAPI specification, SDKs, or
+  developer documentation. This profile was surfaced as a Version One Ventures
+  portfolio company and enriched as an identity-only lead.
 url: https://raw.githubusercontent.com/api-evangelist/swoop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +36,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Food Delivery
+- E-Commerce
+- Payments
+- Africa
+- Nigeria
+- Super App
+- Mobile App
+- Consumer
 apis: []
+common:
+- type: DomainSecurity
+  url: security/swoop-domain-security.yml
+- type: Website
+  url: https://www.swoop.com.ng/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
