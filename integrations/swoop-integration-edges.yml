@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/swoop/integrations
+- https://n8n.io/integrations/swoop/
+- https://composio.dev/toolkits/swoop
+- https://monid.ai/tools/swoop
+checked:
+- https://composio.dev/toolkits/swoop
+- https://monid.ai/tools/swoop
+- https://n8n.io/integrations/swoop/
+- https://zapier.com/apps/swoop/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
